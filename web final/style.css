@@ -1,5 +1,6 @@
 html{
     background: url('images/spaceship.jpg');
+    background-size: 200px;
     color: #333333;
     font-family: 'Heebo', sans-serif;
 }
@@ -12,6 +13,10 @@ html{
 
 header{
     background-color: #000;
+}
+
+h3{
+    color: #AB51C1;
 }
 
 section{
@@ -70,5 +75,10 @@ nav li:hover{
 }
 
 footer{
+    background: #AB51C1;
+    margin: auto;
+    padding: 2px;
+    text-align: center;
+    border: 10px solid #111;
     color: #111;
 }
