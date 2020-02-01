@@ -15,8 +15,9 @@ header{
     background-color: #000;
 }
 
-h3{
+h2, h3{
     color: #AB51C1;
+    text-shadow: 2px 2px #401377;
 }
 
 section{
@@ -29,11 +30,23 @@ section{
 }
 
 blockquote{
-    width: 670px;
+    width: 730px;
     background: #222;
     color: #D6B5FF;
+    font-family: 'Tenor Sans', sans-serif;
     padding: 5px;
     border-radius: 10px;
+}
+
+#dailyquote{
+    background: url('https://theysaidso.com/img/bgs/man_on_the_mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-position: center;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 18pt;
+    border: 10px solid #111;
+    padding: 150px 0px 200px 200px;
 }
 
 #papaelon{
@@ -61,7 +74,7 @@ nav li{
     display: inline-block;
     padding: 5px;
     margin: 0px 0px 20px 140px;
-    width: 150px;
+    width: 125px;
     text-align: center;
     background-color: #C89BFF;
     border: 5px solid #8457BB;
