@@ -92,6 +92,7 @@ var Barchart = function(options){
         for (categ in this.options.data){
             var li = document.createElement("li");
             li.style.listStyle = "none";
+            li.style.listStylePosition = "right";
             li.style.borderLeft = "20px solid "+this.colors[barIndex%this.colors.length];
             li.style.padding = "5px";
             li.textContent = categ;
@@ -117,8 +118,8 @@ myBarchart.draw();
 
 //drawing series name
 this.ctx.save();
-this.ctx.textBaseline="bottom";
-this.ctx.textAlign="center";
+this.ctx.textBaseline="right";
+this.ctx.textAlign="right";
 this.ctx.fillStyle = "#000000";
 this.ctx.font = "bold 14px Arial";
 this.ctx.fillText(this.options.seriesName, this.canvas.width/2,this.canvas.height);
