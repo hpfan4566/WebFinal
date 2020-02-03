@@ -1,1 +1,97 @@
-/*comment*/
+html{
+    background: url('images/spaceship.jpg');
+    background-size: 200px;
+    color: #333333;
+    font-family: 'Heebo', sans-serif;
+}
+
+#horizon{
+    width: 150px;
+    background-color: #000;
+    padding: 20px 0px 0px 0px;
+}
+
+header{
+    background-color: #000;
+}
+
+h2, h3{
+    color: #AB51C1;
+    text-shadow: 2px 2px #401377;
+}
+
+section{
+    width: 95%;
+    background: #333;
+    color: #D6B5FF;
+    padding: 10px 30px 10px 30px;
+    margin: auto;
+    border: 10px solid #111;
+}
+
+blockquote{
+    width: 730px;
+    background: #222;
+    color: #D6B5FF;
+    font-family: 'Tenor Sans', sans-serif;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#dailyquote{
+    background: url('https://theysaidso.com/img/bgs/man_on_the_mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-position: center;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 18pt;
+    border: 10px solid #111;
+    padding: 150px 0px 200px 200px;
+}
+
+#papaelon{
+    color: #49EDE7;
+}
+
+a:link{
+    color: #333333;
+}
+
+a:visited{
+    color: #401377;
+}
+
+a:hover{
+    color: #E3F7E6;
+}
+
+a:active{
+    color: #ECF446;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 0px 0px 20px 140px;
+    width: 125px;
+    text-align: center;
+    background-color: #C89BFF;
+    border: 5px solid #8457BB;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px #222222;
+}
+
+nav li:hover{
+    background: #8457BB;
+    border: 5px solid #401377;
+}
+
+footer{
+    background: #AB51C1;
+    margin: auto;
+    padding: 2px;
+    text-align: center;
+    border: 10px solid #111;
+    color: #111;
+}
