@@ -8,7 +8,7 @@ fetch(url)
         dailyquote.innerHTML = contents[0].quotes[0].quote;
     })
 
-    var myCanvas = document.getElementById("myCanvas");
+var myCanvas = document.getElementById("myCanvas");
 myCanvas.width = 300;
 myCanvas.height = 300;
   
