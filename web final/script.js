@@ -6,7 +6,7 @@ fetch(url)
     .then(response => response.json())
     .then(data => {
         console.log(data);
-        dailyquote.innerHTML = data.contents[0].
+        dailyquote.innerHTML = data.contents.
         quotes[0].
         quote;
     })
