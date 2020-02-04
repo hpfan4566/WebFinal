@@ -1,6 +1,6 @@
 var image = document.getElementById("image");
  
-var imageArray = ["images/elon1.png","images/Elon2.png","images/elon3.png"];
+var imageArray = ["images/elonQuote1.jpg","images/elon1.png","images/elonQuote2.jpg","images/Elon2.png","elonQuote3.jpg","images/elon3.png"];
  
 var imageIndex = 0;
  
@@ -14,6 +14,6 @@ function changeImage() {
  
 window.onload = function() {
  
-   setInterval(changeImage,2000);
+   setInterval(changeImage,4000);
  
 }
