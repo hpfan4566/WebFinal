@@ -38,6 +38,10 @@ blockquote{
     border-radius: 10px;
 }
 
+#quotetext{
+    width: 400px;
+}
+
 #dailyquote{
     background: url('https://theysaidso.com/img/bgs/man_on_the_mountain.jpg');
     background-repeat: no-repeat;
@@ -46,8 +50,10 @@ blockquote{
     font-family: 'Tenor Sans', sans-serif;
     font-size: 18pt;
     border: 10px solid #111;
-    padding: 150px 0px 200px 200px;
+    padding: 75px 50px 300px 50px;
 }
+
+
 
 #papaelon{
     color: #49EDE7;
@@ -94,4 +100,16 @@ footer{
     text-align: center;
     border: 10px solid #111;
     color: #111;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid white;
+}
+
+th, td{
+    padding: 3px;
 }
