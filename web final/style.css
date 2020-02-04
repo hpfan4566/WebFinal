@@ -95,3 +95,15 @@ footer{
     border: 10px solid #111;
     color: #111;
 }
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid white;
+}
+
+th, td{
+    padding: 3px;
+}
