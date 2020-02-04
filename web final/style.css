@@ -21,7 +21,7 @@ h2, h3{
 }
 
 section{
-    width: 95%;
+    width: 1422px;
     background: #333;
     color: #D6B5FF;
     padding: 10px 30px 10px 30px;
@@ -45,7 +45,7 @@ blockquote{
 #dailyquote{
     background: url('https://theysaidso.com/img/bgs/man_on_the_mountain.jpg');
     background-repeat: no-repeat;
-    background-size: 1500px;
+    background-size: 100%;
     background-position: center;
     font-family: 'Tenor Sans', sans-serif;
     font-size: 18pt;
@@ -97,6 +97,7 @@ footer{
     background: #AB51C1;
     margin: auto;
     padding: 2px;
+    width: 1478px;;
     text-align: center;
     border: 10px solid #111;
     color: #111;
