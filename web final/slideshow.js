@@ -1,6 +1,6 @@
 var image = document.getElementById("image");
  
-var imageArray = ["images/space1.png","images/elonQuote1.jpg","images/space2.png","images/elon1.png","images/elonQuote2.jpg","images/Elon2.png","images/space3.png","elonQuote3.jpg","images/elon3.png","images/space4.png"];
+var imageArray = ["images/space1.png","images/elonQuote1.jpg","images/space2.png","images/elon1.png","images/elonQuote2.jpg","images/Elon2.png","images/space3.png","images/elonQuote3.jpg","images/spaceRep1.png","images/elon3.png","images/space4.png"];
  
 var imageIndex = 0;
  
