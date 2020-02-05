@@ -114,3 +114,7 @@ table, th, td{
 th, td{
     padding: 3px;
 }
+
+tr:hover{
+    background: #49ede7;
+   }
