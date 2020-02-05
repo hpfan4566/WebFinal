@@ -112,9 +112,10 @@ table, th, td{
 }
 
 th, td{
-    padding: 3px;
+    padding: 5px;
 }
 
 tr:hover{
-    background: #49ede7;
+    background: #D6B5FF;
+    color: #401377;
    }
